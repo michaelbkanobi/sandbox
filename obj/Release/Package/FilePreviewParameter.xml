@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="quotemachine" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\michaelbkanobi\\documents\\visual\ studio\ 2012\\Projects\\CSharpQuoteMachine\\QuoteMachine\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\michaelbkanobi\\documents\\visual\ studio\ 2012\\Projects\\CSharpQuoteMachine\\QuoteMachine\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Context-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0; Initial Catalog=Context-20130316164828; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|Context-20130316164828.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\michaelbkanobi\\documents\\visual\ studio\ 2012\\Projects\\CSharpQuoteMachine\\QuoteMachine\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Context']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-QuoteMachine-20130316115304;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-QuoteMachine-20130316115304.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\michaelbkanobi\\documents\\visual\ studio\ 2012\\Projects\\CSharpQuoteMachine\\QuoteMachine\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="QuoteMachineContext-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0; Initial Catalog=QuoteMachineContext-20130316164503; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|QuoteMachineContext-20130316164503.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\michaelbkanobi\\documents\\visual\ studio\ 2012\\Projects\\CSharpQuoteMachine\\QuoteMachine\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuoteMachineContext']/@connectionString" />
+  </parameter>
+</parameters>

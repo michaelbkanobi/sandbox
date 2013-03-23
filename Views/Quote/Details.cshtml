@@ -1,0 +1,43 @@
+﻿@model QuoteMachine.Models.QuoteModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>QuoteModel</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.content)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.content)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.author)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.author)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.category1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.category1)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.category2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.category2)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

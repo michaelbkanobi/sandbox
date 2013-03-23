@@ -1,0 +1,60 @@
+﻿@model QuoteMachine.Models.QuoteModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>QuoteModel</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.content)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.content)
+            @Html.ValidationMessageFor(model => model.content)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.author)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.author)
+            @Html.ValidationMessageFor(model => model.author)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.category1)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.category1)
+            @Html.ValidationMessageFor(model => model.category1)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.category2)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.category2)
+            @Html.ValidationMessageFor(model => model.category2)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
