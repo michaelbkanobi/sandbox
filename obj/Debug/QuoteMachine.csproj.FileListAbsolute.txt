@@ -94,7 +94,6 @@ C:\Users\michaelbkanobi\Documents\github\sandbox\bin\QuoteMachine.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\QuoteMachine.pdb
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.Formatting.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.WebRequest.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Web.Helpers.dll
@@ -108,7 +107,6 @@ C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Web.WebPages.Razor.d
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\WebMatrix.Data.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\WebMatrix.WebData.dll
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\Microsoft.Web.Infrastructure.xml
-C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.xml
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.Formatting.xml
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Net.Http.WebRequest.xml
 C:\Users\michaelbkanobi\Documents\github\sandbox\bin\System.Web.Helpers.xml
