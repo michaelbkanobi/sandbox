@@ -6,4 +6,7 @@
   <parameter name="QuoteMachineContext-Web.config Connection String" description="QuoteMachineContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=QuoteMachineContext-20130316164503; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|QuoteMachineContext-20130316164503.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\michaelbkanobi\\Documents\\github\\sandbox\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuoteMachineContext']/@connectionString" />
   </parameter>
+  <parameter name="QuoteMachineContext_DatabasePublish-Web.config Connection String" description="QuoteMachineContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="QuoteMachineContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\michaelbkanobi\\Documents\\github\\sandbox\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QuoteMachineContext_DatabasePublish']/@connectionString" />
+  </parameter>
 </parameters>
